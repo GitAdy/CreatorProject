@@ -7,17 +7,20 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="design.css">
 </head>
 <body style="background-color: rgb(204, 204, 255);">
 <main>
 	<div class="popup" id="popup-1">
-		<div class="overlay" id=""></div>
+		<div class="overlay"></div>
 		<div class="content">
-			<div class="close-btn"> &times;</div>
+			<div class="close-btn" onclick="togglePopup()"> &times;</div>
 			<h1>Hello World</h1>
 			<p>I don't really know what I am doing but I am trying my best so don't judge me. Thx</p>
 		</div>
 	</div>
+
+	<button onclick="togglePopup()">Show Popup</button>
 	<p style="background-color: white; text-align: center; font-family: 'Roboto Mono', monospace;">
 		Hello world
 	</p>
