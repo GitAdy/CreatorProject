@@ -22,3 +22,24 @@
 	padding: 20px;
 	box-sizing: border-box;
 }
+
+
+.popup .close-btn {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 30px;
+	height:  30px;
+	background: #222;
+	color: #fff;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 30px;
+	text-align: center;
+}
+
+
+
+
+
+
