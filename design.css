@@ -16,7 +16,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0);
-	background: none;
+	background: #fff;
 	width: 450px;
 	height: 220px;
 	z-index: 2;
@@ -53,7 +53,12 @@
 }
 
 
-
+.button {
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	padding: 20px;
+}
 
 
 
