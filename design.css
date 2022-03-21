@@ -54,8 +54,7 @@
 
 
 .button {
-	position: absolute;
-	margin: auto;
+	margin: 50%;
 	text-align: center;
 	padding: auto;
 	font-size: 25px;
